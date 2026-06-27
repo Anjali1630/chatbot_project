@@ -2,18 +2,95 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey"],
-      "responses": ["Hello!", "Hi there!", "How can I help you?"]
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Is anyone there?",
+        "Good morning",
+        "Good afternoon",
+        "Yo",
+        "Hola"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Great to connect with you. How's it going?",
+        "Hello! Feel free to ask me anything."
+      ]
     },
     {
-      "tag": "goodbye", 
-      "patterns": ["Bye", "Goodbye", "See you later"],
-      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I'm leaving",
+        "Talk to you later",
+        "Catch you later",
+        "Goodnight"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you later! Have a wonderful day.",
+        "Bye! Let me know if you need anything else later.",
+        "Have a great day ahead!"
+      ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thank you", "Thanks"],
-      "responses": ["You're welcome!", "Happy to help!"]
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thanks a lot",
+        "That helps a ton",
+        "Awesome, thanks"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Happy to help anytime!",
+        "Anytime! Let me know if there's anything else.",
+        "Glad I could be of assistance!"
+      ]
+    },
+    {
+      "tag": "bot_profile",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "What are you?",
+        "Tell me about yourself"
+      ],
+      "responses": [
+        "I'm your friendly AI assistant!",
+        "I am a simple chatbot built to help you out.",
+        "You can think of me as your digital helper."
+      ]
+    },
+    {
+      "tag": "smalltalk_status",
+      "patterns": [
+        "How are you?",
+        "How's it going?",
+        "How are you doing?",
+        "Up to much?"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! How are you?",
+        "Everything is running smoothly in my digital world. What about you?",
+        "I'm up and running, ready to help!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't quite catch that. Could you rephrase?",
+        "I am still learning! Can you try asking that a different way?",
+        "Hmm, I'm not sure I understand that intent. Could you clarify?"
+      ]
     }
   ]
 }
