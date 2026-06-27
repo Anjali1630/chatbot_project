@@ -1,0 +1,8 @@
+chatbot_env/
+__pycache__/
+*.pyc
+
+models/*.h5
+models/*.pkl
+
+.vscode
